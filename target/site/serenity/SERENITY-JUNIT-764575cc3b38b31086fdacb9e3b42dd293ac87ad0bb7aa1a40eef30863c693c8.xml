@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="org.example.features.search.SearchByKeywordStory" skipped="1" tests="5" time="24.72" timestamp="2024-04-29 04:45:25"><testcase classname="org.example.features.search.SearchByKeywordStory" name="Searching by keyword dog should display the corresponding article"><failure message="&#10;Expected: a collection containing a string containing &quot;The species Canis familiaris (sometimes designated Canis lupus familiaris), domesticated for thousands of years and of highly variable appearance because of human breeding.&quot;&#10;     but: was &quot;(transitive) To pursue with the intent to catch. synonyms ▲&#10;Synonyms: chase, chase after, go after, pursue, tag, tail, track, trail&quot;, was &quot;(transitive) To follow in an annoying or harassing way. quotations ▼&#10;The woman cursed him so that trouble would dog his every step.&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;&quot;, was &quot;(transitive, nautical) To fasten a hatch securely.&#10;It is very important to dog down these hatches.&quot;, was &quot;(intransitive, emerging usage in British) To watch, or participate, in sexual activity in a public place. quotations ▼&#10;I admit that I like to dog at my local country park.&quot;, was &quot;&quot;, was &quot;(intransitive, transitive) To intentionally restrict one's productivity as employee; to work at the slowest rate that goes unpunished. synonyms ▲&#10;Synonyms: soldier, goldbrick&#10;A surprise inspection of the night shift found that some workers were dogging it.&quot;, was &quot;(transitive, slang) To criticize. quotations ▼&quot;, was &quot;&quot;, was &quot;(transitive, military) To divide (a watch) with a comrade. quotations ▼&quot;, was &quot;&quot;, was &quot;&quot;" type="java.lang.AssertionError">
+Expected: a collection containing a string containing "The species Canis familiaris (sometimes designated Canis lupus familiaris), domesticated for thousands of years and of highly variable appearance because of human breeding."
+     but: was "(transitive) To pursue with the intent to catch. synonyms ▲
+Synonyms: chase, chase after, go after, pursue, tag, tail, track, trail", was "(transitive) To follow in an annoying or harassing way. quotations ▼
+The woman cursed him so that trouble would dog his every step.", was "", was "", was "", was "", was "(transitive, nautical) To fasten a hatch securely.
+It is very important to dog down these hatches.", was "(intransitive, emerging usage in British) To watch, or participate, in sexual activity in a public place. quotations ▼
+I admit that I like to dog at my local country park.", was "", was "(intransitive, transitive) To intentionally restrict one's productivity as employee; to work at the slowest rate that goes unpunished. synonyms ▲
+Synonyms: soldier, goldbrick
+A surprise inspection of the night shift found that some workers were dogging it.", was "(transitive, slang) To criticize. quotations ▼", was "", was "(transitive, military) To divide (a watch) with a comrade. quotations ▼", was "", was ""</failure><system-err>
+Expected: a collection containing a string containing "The species Canis familiaris (sometimes designated Canis lupus familiaris), domesticated for thousands of years and of highly variable appearance because of human breeding."
+     but: was "(transitive) To pursue with the intent to catch. synonyms ▲
+Synonyms: chase, chase after, go after, pursue, tag, tail, track, trail", was "(transitive) To follow in an annoying or harassing way. quotations ▼
+The woman cursed him so that trouble would dog his every step.", was "", was "", was "", was "", was "(transitive, nautical) To fasten a hatch securely.
+It is very important to dog down these hatches.", was "(intransitive, emerging usage in British) To watch, or participate, in sexual activity in a public place. quotations ▼
+I admit that I like to dog at my local country park.", was "", was "(intransitive, transitive) To intentionally restrict one's productivity as employee; to work at the slowest rate that goes unpunished. synonyms ▲
+Synonyms: soldier, goldbrick
+A surprise inspection of the night shift found that some workers were dogging it.", was "(transitive, slang) To criticize. quotations ▼", was "", was "(transitive, military) To divide (a watch) with a comrade. quotations ▼", was "", was ""&#13;
+org.example.steps.serenity.EndUserSteps.should_see_definition(EndUserSteps.java:27)&#13;
+org.example.features.search.SearchByKeywordStory.searching_by_keyword_dog_should_display_the_corresponding_article(SearchByKeywordStory.java:46)&#13;
+</system-err></testcase><testcase classname="org.example.features.search.SearchByKeywordStory" name="Searching by keyword cat should display the corresponding article"/><testcase classname="org.example.features.search.SearchByKeywordStory" name="Searching by keyword banana should display the corresponding article"><failure message="&#10;Expected: a collection containing a string containing &quot;An edible fruit produced by the pear tree, similar to an apple but typically elongated towards the stem.&quot;&#10;     but: was &quot;pillar synonym ▲&#10;Synonym: columna&quot;, was &quot;window sill synonym ▲&#10;Synonym: peitoril&quot;, was &quot;one of several stone pillars placed by way of a bridge synonym ▲&#10;Synonym: poldra&quot;" type="java.lang.AssertionError">
+Expected: a collection containing a string containing "An edible fruit produced by the pear tree, similar to an apple but typically elongated towards the stem."
+     but: was "pillar synonym ▲
+Synonym: columna", was "window sill synonym ▲
+Synonym: peitoril", was "one of several stone pillars placed by way of a bridge synonym ▲
+Synonym: poldra"</failure><system-err>
+Expected: a collection containing a string containing "An edible fruit produced by the pear tree, similar to an apple but typically elongated towards the stem."
+     but: was "pillar synonym ▲
+Synonym: columna", was "window sill synonym ▲
+Synonym: peitoril", was "one of several stone pillars placed by way of a bridge synonym ▲
+Synonym: poldra"&#13;
+org.example.steps.serenity.EndUserSteps.should_see_definition(EndUserSteps.java:27)&#13;
+org.example.features.search.SearchByKeywordStory.searching_by_keyword_banana_should_display_the_corresponding_article(SearchByKeywordStory.java:37)&#13;
+</system-err></testcase><testcase classname="org.example.features.search.SearchByKeywordStory" name="Searching by ambiguious keyword should display the disambiguation page"><skipped/></testcase><testcase classname="org.example.features.search.SearchByKeywordStory" name="Searching by keyword apple should display the corresponding article"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+org.example.pages.DictionaryPage.enter_keywords(DictionaryPage.java:25)&#13;
+org.example.steps.serenity.EndUserSteps.enters(EndUserSteps.java:17)&#13;
+org.example.steps.serenity.EndUserSteps.looks_for(EndUserSteps.java:37)&#13;
+org.example.features.search.SearchByKeywordStory.searching_by_keyword_apple_should_display_the_corresponding_article(SearchByKeywordStory.java:28)&#13;
+</system-err></testcase></testsuite>

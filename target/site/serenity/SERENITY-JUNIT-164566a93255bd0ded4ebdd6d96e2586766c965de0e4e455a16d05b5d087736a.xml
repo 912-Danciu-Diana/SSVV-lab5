@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="4" failures="0" name="org.example.features.search.EmagFunctionalityTestDDT" skipped="0" tests="4" time="10.72" timestamp="2024-05-12 09:04:35"><testcase classname="org.example.features.search.EmagFunctionalityTestDDT" name="Test Emag Functionality Using DDT"><error message="Timed out after 2 seconds. Element not found&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-LTAT9KB', ip: '172.20.10.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-LTAT9KB', ip: '172.20.10.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-LTAT9KB', ip: '172.20.10.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LTAT9KB', ip: '172.20.10.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LTAT9KB', ip: '172.20.10.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LTAT9KB', ip: '172.20.10.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: driver.version: unknown</error><system-err>Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LTAT9KB', ip: '172.20.10.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LTAT9KB', ip: '172.20.10.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LTAT9KB', ip: '172.20.10.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: driver.version: unknown&#13;
+org.example.pages.EmagPage.enterSearchTerm(EmagPage.java:34)&#13;
+org.example.steps.serenity.EmagUserSteps.searchFor(EmagUserSteps.java:14)&#13;
+org.example.features.search.EmagFunctionalityTestDDT.testFunctionality(EmagFunctionalityTestDDT.java:31)&#13;
+</system-err></testcase></testsuite>

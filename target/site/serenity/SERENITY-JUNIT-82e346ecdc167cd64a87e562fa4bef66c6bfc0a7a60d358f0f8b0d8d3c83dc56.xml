@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="org.example.features.search.SearchByKeywordStory" skipped="0" tests="1" time="7.44" timestamp="2024-04-29 04:42:15"><testcase classname="org.example.features.search.SearchByKeywordStory" name="Searching by keyword cat should display the corresponding article"><failure message="&#10;Expected: a collection containing a string containing &quot;A domesticated species (Felis catus) of feline animal, commonly kept as a house pet.&quot;&#10;     but: was &quot;(international standards) ISO 639-2 &amp; ISO 639-3 language code for Catalan.&quot;" type="java.lang.AssertionError">
+Expected: a collection containing a string containing "A domesticated species (Felis catus) of feline animal, commonly kept as a house pet."
+     but: was "(international standards) ISO 639-2 &amp; ISO 639-3 language code for Catalan."</failure><system-err>
+Expected: a collection containing a string containing "A domesticated species (Felis catus) of feline animal, commonly kept as a house pet."
+     but: was "(international standards) ISO 639-2 &amp; ISO 639-3 language code for Catalan."&#13;
+org.example.steps.serenity.EndUserSteps.should_see_definition(EndUserSteps.java:27)&#13;
+org.example.features.search.SearchByKeywordStory.searching_by_keyword_cat_should_display_the_corresponding_article(SearchByKeywordStory.java:53)&#13;
+</system-err></testcase></testsuite>
